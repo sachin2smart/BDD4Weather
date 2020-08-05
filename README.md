@@ -1,4 +1,6 @@
 
+## Scenario
+
 Writing BDD for Weather application 
 
 Application URL : https://openweathermap.org/stations 
@@ -28,3 +30,10 @@ Application URL : https://openweathermap.org/stations
 4.	Delete both of the created stations and verify that returned HTTP response is 204. 
 
 5.	Repeat the previous step and verify that returned HTTP response is 404 and that message body contains “message”: “Station not found".
+
+
+## Implementation
+
+1.    [BDD Feature file](src/test/java/com/bdd/cucumber/project/TestScenarios/features/MyBDDTests.feature)
+
+2.    [BDD Steps file](src/test/java/com/bdd/cucumber/project/TestScenarios/Steps/MyBDDTestSteps.java)
