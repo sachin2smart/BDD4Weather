@@ -1,4 +1,4 @@
-#Author: dikshakalbhor4@gmail.com
+#Author: Sachin Shinde
 
 @WheatherInfo
 Feature: I want to to register a weather station
