@@ -16,7 +16,7 @@ Feature: I want to to register a weather station
 		Given  I have wheather station URL
     And URL have a API key
     And I have to register the data as below
-			|external_id	|name			|latitude	|longitude	|altitude	|
+			|external_id	|name		|latitude	|longitude	|altitude	|
 			|DEMO_TEST001	|Test01 19756	|33.33		|-111.43	|444		|
 			|DEMO_TEST999	|Test99 59756	|33.44		|-12.44		|444		|
 		When I register a station with APIID with above data
@@ -29,7 +29,7 @@ Feature: I want to to register a weather station
 		And I have already registered few stations
 		When I requested to get my registed stations
 		Then I get the details of registed stations with name contaning below two stations
-			|name			|
+			|name		|
 			|Test01 19756	|
 			|Test99 59756	|
 	
@@ -39,7 +39,7 @@ Feature: I want to to register a weather station
 		And URL have a API key
 		And I have already registered few stations
 		When I requested to delete my registed stations
-			|name			|
+			|name		|
 			|Test01 19756	|
 			|Test99 59756	|
 		Then I get the "204" in response for delete operation 
@@ -50,7 +50,7 @@ Feature: I want to to register a weather station
 		And URL have a API key
 		And I have already deleted few stations
 		When I requested to delete my deleted stations
-			|name			|
+			|name		|
 			|Test01 19756	|
 			|Test99 59756	|
 
