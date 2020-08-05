@@ -12,12 +12,14 @@ Application URL : https://openweathermap.org/stations
 
  
 "external_id": "DEMO_TEST001",
-"name Interview Station <Random Number>", "latitude": 33.33,
+"name" : "Test01 <Random Number>", 
+"latitude": 33.33,
 "longitude": -111.43,
 "altitude": 444 
  
-"external_id": "Interview1 ",
-"name": "Interview Station <Random Number>", "latitude": 33.44,
+"external_id": "DEMO_TEST999",
+"name": "Test99 <Random Number>", 
+"latitude": 33.44,
 "longitude": -12.44,
 "altitude": 444 
  
