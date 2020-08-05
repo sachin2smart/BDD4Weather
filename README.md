@@ -13,15 +13,13 @@ Application URL : https://openweathermap.org/stations
 
 2.	Register two stations with the following details and verify that HTTP response code is 201. 
 
- >
-"external_id": "DEMO_TEST001",
+ >"external_id": "DEMO_TEST001",
 "name" : "Test01 <Random Number>", 
 "latitude": 33.33,
 "longitude": -111.43,
 "altitude": 444 
  
- >
-"external_id": "DEMO_TEST999",
+> "external_id": "DEMO_TEST999",
 "name": "Test99 <Random Number>", 
 "latitude": 33.44,
 "longitude": -12.44,
